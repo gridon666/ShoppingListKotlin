@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.ShoppingList" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#3978B8</item>
+        <item name="android:statusBarColor">#315F8C</item>
+        <item name="android:navigationBarColor">#202A35</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

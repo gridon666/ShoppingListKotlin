@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="20dp"
+    android:background="@color/screen_background"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Мои покупки" android:textSize="28sp"
+        android:textStyle="bold" android:textColor="@color/text_primary"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/addButton" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Добавить товар" />
+
+    <TextView
+        android:id="@+id/emptyText" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="center"
+        android:text="Список пуст. Добавьте первый товар."
+        android:textSize="16sp" android:padding="28dp" />
+
+    <ListView
+        android:id="@+id/productsList" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"
+        android:dividerHeight="8dp" />
+</LinearLayout>
